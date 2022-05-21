@@ -1,4 +1,5 @@
-data class BookShelfItem(
-    val pages: Int,
-    val content: String
-)
+interface BookShelfItem {
+    fun getPages() : Int
+
+    fun getPageContent(page: Int): String
+}

@@ -1,11 +1,7 @@
 object BookShelfFactory {
-    private val bookShelfItem = BookShelfItem(
-        0,
-        ""
-    )
-
+    private val book = Book("default", "Wilson")
     fun makeBookShelf(capacity: Int): MutableList<BookShelfItem> {
-        return MutableList(capacity) { bookShelfItem }
+        return MutableList(capacity) { book }
     }
 
 }

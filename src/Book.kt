@@ -8,7 +8,15 @@
 // A magazine has an accessible name and publication date.
 // A notebook has an accessible owner
 
-data class Book(
+class Book(
     val title: String,
     val author: String
-)
+): BookShelfItem {
+    override fun getPages(): Int {
+        TODO("Not yet implemented")
+    }
+
+    override fun getPageContent(page: Int): String {
+        TODO("Not yet implemented")
+    }
+}
