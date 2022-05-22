@@ -2,7 +2,7 @@ class Magazine(
     val name: String,
     val publicationDate: String
 ): BookShelfItem {
-    override fun getPages(): Int {
+    override fun getPages(): String {
         TODO("Not yet implemented")
     }
 

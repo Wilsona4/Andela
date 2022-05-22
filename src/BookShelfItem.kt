@@ -1,5 +1,5 @@
 interface BookShelfItem {
-    fun getPages() : Int
+    fun getPages() : String
 
     fun getPageContent(page: Int): String
 }

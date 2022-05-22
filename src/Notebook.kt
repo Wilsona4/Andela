@@ -3,7 +3,7 @@ import java.security.acl.Owner
 class Notebook(
     val owner: Owner
 ): BookShelfItem {
-    override fun getPages(): Int {
+    override fun getPages(): String {
         TODO("Not yet implemented")
     }
 

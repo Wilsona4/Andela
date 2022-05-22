@@ -13,10 +13,7 @@ interface IBookShelf {
 
     fun addItem(bookShelfItem: BookShelfItem)
     fun getBookItem(): List<BookShelfItem>
-//    fun deleteItem(bookShelfItem: BookShelfItem)
-    fun getShelfCapacity(): Int
     fun getShelfRemainder(): Int
-    fun getItemFromText(content: String)
-    fun queryBookIem(pageNumber: Int): BookShelfItem
+    fun getItemFromText(content: String): List<BookShelfItem>
 
 }

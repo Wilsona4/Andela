@@ -12,7 +12,7 @@ class Book(
     val title: String,
     val author: String
 ): BookShelfItem {
-    override fun getPages(): Int {
+    override fun getPages(): String {
         TODO("Not yet implemented")
     }
 
